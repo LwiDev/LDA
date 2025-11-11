@@ -1,0 +1,23 @@
+{
+  "name": "lda",
+  "version": "1.0.0",
+  "description": "LwiDev Assistant - Generate and configure admin panels",
+  "type": "module",
+  "bin": {
+    "lda": "./bin/lda.js"
+  },
+  "scripts": {
+    "dev": "node bin/lda.js"
+  },
+  "keywords": ["cli", "admin", "generator"],
+  "author": "LwiDev",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "@clack/prompts": "^0.7.0",
+    "fs-extra": "^11.2.0",
+    "mustache": "^4.2.0",
+    "colorjs.io": "^0.5.0",
+    "dotenv": "^16.4.5"
+  }
+}
