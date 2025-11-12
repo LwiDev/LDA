@@ -1,0 +1,16 @@
+{
+  "sync": {
+    "include": [
+      "src/lib/layouts",
+      "src/lib/components/ui",
+      "src/lib/stores",
+      "src/lib/utils",
+      "src/lib/theme.css"
+    ],
+    "exclude": [
+      "src/routes/admin",
+      "src/lib/models",
+      "src/lib/server"
+    ]
+  }
+}
